@@ -1,0 +1,177 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
+}
+
+nav {
+  background: #fff;
+}
+
+main {
+  background: #fff;
+}
+
+nav div.container:first-child {
+  background: #f72210;
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+.container {
+  max-width: 1310px;
+}
+
+.subscribe a {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.logo {
+  top: 0;
+  right: 50%;
+  margin-right: -198px;
+  width: 396px;
+  height: 60px;
+  padding: 20px 0;
+}
+
+svg {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  height: 24px;
+  flex-grow: 1;
+  border-right: 1px solid #d9d9d9;
+}
+
+ul li:last-child {
+  border: none;
+}
+
+ul {
+  width: 100%;
+  padding: 15px 160px 15px 0;
+}
+
+.arrow {
+  height: 14px;
+  width: 8px;
+}
+
+div.logo-box {
+  padding: 20px 10px 15px 10px;
+  height: 95px;
+}
+
+.menu-decor li a {
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.search-div {
+  right: 0;
+  margin-top: -15px;
+  width: 160px;
+  height: 54px;
+}
+
+.search-div input {
+  padding: 0;
+  width: 60px;
+  height: 54px;
+  font: 400 16px "MS Shell Dlg 2", sans-serif;
+  color: rgba(0, 0, 0, 0.55);
+  border: none;
+}
+
+.search-div label {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+.menu-decor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 13px solid #f72210;
+  border-left: 12px solid #fff;
+  width: 78px;
+}
+
+.col-wrapper {
+  max-width: 71%;
+  flex-basis: 71%;
+}
+
+.col-1 {
+  max-width: 41%;
+  flex-basis: 41%;
+}
+
+.col-2 {
+  max-width: 59%;
+  flex-basis: 59%;
+}
+
+.col-3 {
+  max-width: 29%;
+  flex-basis: 29%;
+}
+
+.f-back-img {
+  background: url(https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&h=265&q=90&f=bdeb25021d902b088da9517e5bc338c9) no-repeat;
+  background-size: contain;
+  flex: 1 1 100%;
+  max-width: 100%;
+  padding-top: 66.7506%;
+  margin-bottom: 10px;
+}
+
+.back-click {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.col-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+}
+
+.f-new-title {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  line-height: 24px;
+  word-spacing: -0.1rem;
+}
+
+h3 {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+p.article-text {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 20px;
+}
+
+.subject {
+  bottom: 0;
+  left: 0;
+  padding: 4px 17px 5px;
+  text-decoration: none;
+  color: #f72210;
+  background: rgba(255, 255, 255, 0.9);
+}
