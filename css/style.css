@@ -5,10 +5,16 @@ body {
 
 nav {
   background: #fff;
+  border-bottom: 2px solid #f4f5f6;
 }
 
 main {
   background: #fff;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav div.container:first-child {
@@ -29,6 +35,12 @@ nav div.container:first-child {
   text-transform: uppercase;
 }
 
+.subscribe a:last-child {
+  color: #f72210;
+  background: #fff;
+  padding: 0 10px 0 12px;
+}
+
 .logo {
   top: 0;
   right: 50%;
@@ -44,16 +56,19 @@ svg {
 
 ul li {
   list-style: none;
+}
+
+nav ul li {
   height: 24px;
   flex-grow: 1;
   border-right: 1px solid #d9d9d9;
 }
 
-ul li:last-child {
+nav ul li:last-child {
   border: none;
 }
 
-ul {
+nav ul {
   width: 100%;
   padding: 15px 160px 15px 0;
 }
@@ -77,6 +92,7 @@ div.logo-box {
 .search-div {
   right: 0;
   margin-top: -15px;
+  margin-bottom: -15px;
   width: 160px;
   height: 54px;
 }
@@ -128,11 +144,8 @@ div.logo-box {
 }
 
 .f-back-img {
-  background: url(https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&h=265&q=90&f=bdeb25021d902b088da9517e5bc338c9) no-repeat;
-  background-size: contain;
   flex: 1 1 100%;
   max-width: 100%;
-  padding-top: 66.7506%;
   margin-bottom: 10px;
 }
 
@@ -150,7 +163,13 @@ div.logo-box {
 
 .f-new-title {
   font-size: 24px;
-  text-decoration: none;
+  color: #000;
+  line-height: 24px;
+  word-spacing: -0.1rem;
+}
+
+.t-new-title {
+  font-size: 22px;
   color: #000;
   line-height: 24px;
   word-spacing: -0.1rem;
@@ -171,7 +190,61 @@ p.article-text {
   bottom: 0;
   left: 0;
   padding: 4px 17px 5px;
-  text-decoration: none;
   color: #f72210;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.opinion-img {
+  background: url(https://d.newsweek.com/en/full/1531320/ahmed-sahi.png?w=63&h=63&f=47c7fc05ada162fa66aa250382a017b9) no-repeat;
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.opinion-txt {
+  flex: 1;
+}
+
+.opinion-txt a {
+  flex: 1;
+  color: #000;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.opinion-txt p {
+  flex: 1;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+.opinion-list li {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 10px 0;
+}
+
+.opinion-list li:last-child {
+  border-bottom: none;
+}
+
+.opinion-list li:nth-child(2) .opinion-img {
+  background: url(https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77);
+}
+
+.opinion-list li:nth-child(3) .opinion-img {
+  background: url(https://d.newsweek.com/en/full/109198/lee-habeeb.png?w=63&h=63&f=dd1164c722d99b834fc2f3f410f433d4);
+}
+
+.opinion-list li:nth-child(4) .opinion-img {
+  background: url(https://d.newsweek.com/en/full/1531056/kathryn-spletstoser.png?w=63&h=63&f=52758742696417bedff18fb0925b8625);
+}
+
+.opinion-list li:nth-child(5) .opinion-img {
+  background: url(https://d.newsweek.com/en/full/1530962/emily-penn.png?w=63&h=63&f=dc71ad6093296c276025808415018c80);
+}
+
+.opinion-list li:nth-child(6) .opinion-img {
+  background: url(https://d.newsweek.com/en/full/1530403/natan-sharansky.png?w=63&h=63&f=aa4bf66caef28357d774bfc6c0633a59);
 }
