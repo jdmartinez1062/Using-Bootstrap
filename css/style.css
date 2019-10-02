@@ -8,9 +8,9 @@ nav {
   border-bottom: 2px solid #f4f5f6;
 }
 
-main {
+main.container {
   background: #fff;
-  padding-top: 20px;
+  padding: 20px 30px 0;
 }
 
 a {
@@ -126,6 +126,7 @@ div.logo-box {
 .col-wrapper {
   max-width: 71%;
   flex-basis: 71%;
+  padding: 0 15px;
 }
 
 .col-1 {
@@ -161,11 +162,51 @@ div.logo-box {
   font-size: 16px;
 }
 
+.related li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.related li p {
+  font-size: 19px;
+  color: #000;
+  line-height: 22px;
+}
+
 .f-new-title {
   font-size: 24px;
   color: #000;
   line-height: 24px;
   word-spacing: -0.1rem;
+}
+
+.c-and-t h3 a {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: rgb(39, 39, 39);
+  line-height: 24px;
+  word-spacing: -0.1rem;
+}
+
+.c-and-t-bot {
+  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 2px 6px;
+  color: #272727;
+  background: #c2d4d7;
+}
+
+.c-and-t .article-text {
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+}
+
+.c-and-t div:last-child {
+  padding: 15px 10px 20px;
+}
+
+.c-and-t article {
+  padding: 0 10px;
 }
 
 .t-new-title {
@@ -175,9 +216,29 @@ div.logo-box {
   word-spacing: -0.1rem;
 }
 
+.pxp-10 {
+  padding: 0 10px;
+}
+
+.gray {
+  background-color: #f4f5f7;
+}
+
+.row-wrap-ma {
+  margin: 0 -20px;
+}
+
 h3 {
   line-height: 24px;
   margin-bottom: 10px;
+}
+
+.gray h3 {
+  line-height: 22px;
+}
+
+.gray h3 a {
+  line-height: 22px;
 }
 
 p.article-text {
@@ -185,7 +246,36 @@ p.article-text {
   color: rgb(51, 51, 51);
   line-height: 20px;
 }
+.sponsor-txt-div{
+  padding: 20px;
+}
+.more-stories{
+  padding-top: 20px;
+}
+.more-stories li{
+  padding: 14px 0;
+  color: #000;
+}
+.more-stories p{
+  font: 15px Arial, Helvetica, sans-serif; 
+  color: rgb(51, 51, 51);
+  margin: 0;
+}
+.more-stories div{
+  line-height: 20px;
+}
 
+.more-stories div>a{
+  flex: 1;
+  color: #000;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+.clear{
+  clear:both;
+}
 .subject {
   bottom: 0;
   left: 0;
@@ -194,11 +284,25 @@ p.article-text {
   background: rgba(255, 255, 255, 0.9);
 }
 
+.subject-s {
+  bottom: 0;
+  left: 0;
+  padding: 4px 17px 5px;
+  color: #3581f4;
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .opinion-img {
   background: url(https://d.newsweek.com/en/full/1531320/ahmed-sahi.png?w=63&h=63&f=47c7fc05ada162fa66aa250382a017b9) no-repeat;
   height: 63px;
   width: 63px;
   border-radius: 50%;
+  margin-right: 15px;
+}
+
+.latest-img {
+  width: 135px;
+  height: 90px;
   margin-right: 15px;
 }
 
@@ -225,6 +329,10 @@ p.article-text {
   padding: 10px 0;
 }
 
+.col-3 article {
+  margin-bottom: 30px;
+}
+
 .opinion-list li:last-child {
   border-bottom: none;
 }
@@ -247,4 +355,63 @@ p.article-text {
 
 .opinion-list li:nth-child(6) .opinion-img {
   background: url(https://d.newsweek.com/en/full/1530403/natan-sharansky.png?w=63&h=63&f=aa4bf66caef28357d774bfc6c0633a59);
+}
+
+@media screen and (max-width: 992px) {
+  .col-wrapper {
+    max-width: 100%;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    padding: 0;
+  }
+
+  .col-1 {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+
+  .col-2 {
+    flex-basis: 55%;
+    max-width: 55%;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .col-wrapper {
+    max-width: 100%;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .col-1 {
+    flex-basis: 100%;
+    max-width: 100%;
+    flex: 1;
+    order: 2;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
+    order: 1;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .more-stories .latest-img{
+    width: 258px;
+    height: 172px;
+  }
 }

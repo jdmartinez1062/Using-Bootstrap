@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet"> 
     <title>NewsWeek</title>
   </head>
   <body>
@@ -62,15 +63,24 @@
 
     <main class="container">
 
-      <section class="d-flex">
-        <div class = "col-wrapper d-flex">
-            <div class="col-1">
+      <section class="d-flex flex-wrap">
+        <div class="row">
+          <div class = "col-wrapper  ">
+            <div class ="row d-flex">
+
+              <div class="col-1">
               <h2 class="col-title text-uppercase font-weight-bold">Featured Stories</h2>
               <article class="col p-0">
                 <div class="position-relative">
                   <a class="position-absolute back-click" href="#"></a>
                   <a class="position-absolute subject font-weight-bold text-uppercase" href="#">Tech & Science</a>
-                  <img class="d-flex f-back-img" src="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&h=265&q=90&f=bdeb25021d902b088da9517e5bc338c9" alt="">
+                  <picture >
+                    <source media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&amp;h=265&amp;q=90&amp;f=bdeb25021d902b088da9517e5bc338c9 1x" srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&amp;h=265&amp;q=90&amp;f=bdeb25021d902b088da9517e5bc338c9 1x">
+                    <source media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=466&amp;h=311&amp;q=90&amp;f=fafa326430d82c2df6f04a179452300b 1x" srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=466&amp;h=311&amp;q=90&amp;f=fafa326430d82c2df6f04a179452300b 1x">
+                    <source media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=767&amp;h=512&amp;q=90&amp;f=f146b89a2e9d9c5f58b162d24a051738 1x" srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=767&amp;h=512&amp;q=90&amp;f=f146b89a2e9d9c5f58b162d24a051738 1x">
+                    <source media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=466&amp;h=311&amp;q=90&amp;f=fafa326430d82c2df6f04a179452300b 1x" srcset="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=466&amp;h=311&amp;q=90&amp;f=fafa326430d82c2df6f04a179452300b 1x">
+                    <img class="d-flex f-back-img" data-src="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&amp;h=265&amp;q=90&amp;f=bdeb25021d902b088da9517e5bc338c9" alt="climate denier" title="climate denier" src="https://d.newsweek.com/en/full/1530959/climate-denier.jpg?w=397&amp;h=265&amp;q=90&amp;f=bdeb25021d902b088da9517e5bc338c9">
+                  </picture>
                 </div>
                 <h3><a class="p-0 f-new-title font-weight-bold" href="#">Why Climate Deniers Hate Activists So Much</a></h3>
                 <p class="article-text">Climate denialism expert Martin Hultman is currently working on a project examining the formulation and spread of conspiracy theories around Greta Thunberg.</p>
@@ -79,7 +89,13 @@
                 <div class="f-back-img position-relative">
                   <a class="position-absolute back-click" href="#"></a>
                   <a class="position-absolute subject font-weight-bold text-uppercase" href="#">U.S</a>
-                  <img class="d-flex f-back-img" src="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=397&h=265&q=90&f=d485d778addca7cd0a6aabe804c1f0b7" alt="">
+                  <picture>
+                    <source media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=d485d778addca7cd0a6aabe804c1f0b7 1x" srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=d485d778addca7cd0a6aabe804c1f0b7 1x">
+                    <source media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=f19194de9d7b1b484ac3f612460ffb78 1x" srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=f19194de9d7b1b484ac3f612460ffb78 1x">
+                    <source media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=be6c2ca5f85011201407d750f210daca 1x" srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=be6c2ca5f85011201407d750f210daca 1x">
+                    <source media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=f19194de9d7b1b484ac3f612460ffb78 1x" srcset="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=f19194de9d7b1b484ac3f612460ffb78 1x">
+                    <img class="d-flex f-back-img" data-src="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=d485d778addca7cd0a6aabe804c1f0b7" alt="Immigration protest" title="Immigration protest" src="https://d.newsweek.com/en/full/1531244/immigration-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=d485d778addca7cd0a6aabe804c1f0b7">
+                  </picture>
                 </div>
                 <h3><a class="p-0 f-new-title font-weight-bold" href="#">Trump Admin Slashes Refugee Admissions to Lowest Limit Ever</a></h3>
                 <p class="article-text">"This decision represents further damage to America's leadership on protecting the most vulnerable people around the world," said David Miliband, the president and CEO of the International Rescue Committee.</p>
@@ -88,7 +104,15 @@
                 <div class="f-back-img position-relative">
                   <a class="position-absolute back-click" href="#"></a>
                   <a class="position-absolute subject font-weight-bold text-uppercase" href="#">World</a>
-                  <img class="d-flex f-back-img" src="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=397&h=265&q=90&f=65e1db35ff98da6c222e8a8aaf5ff48b" alt="">
+                  <picture>
+                    
+                    <source media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=397&amp;h=265&amp;q=90&amp;f=65e1db35ff98da6c222e8a8aaf5ff48b 1x" srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=397&amp;h=265&amp;q=90&amp;f=65e1db35ff98da6c222e8a8aaf5ff48b 1x">
+                    <source media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=466&amp;h=311&amp;q=90&amp;f=51b061ee6f957355516960fbea9f399e 1x" srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=466&amp;h=311&amp;q=90&amp;f=51b061ee6f957355516960fbea9f399e 1x">
+                    <source media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=767&amp;h=512&amp;q=90&amp;f=00ce41745c14cfa17f670d845dd814e8 1x" srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=767&amp;h=512&amp;q=90&amp;f=00ce41745c14cfa17f670d845dd814e8 1x">
+                    <source media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=466&amp;h=311&amp;q=90&amp;f=51b061ee6f957355516960fbea9f399e 1x" srcset="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=466&amp;h=311&amp;q=90&amp;f=51b061ee6f957355516960fbea9f399e 1x">
+                    <img class="d-flex f-back-img" data-src="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=397&amp;h=265&amp;q=90&amp;f=65e1db35ff98da6c222e8a8aaf5ff48b" alt="pakistan prime minister imran khan united nations" title="pakistan prime minister imran khan united nations" src="https://d.newsweek.com/en/full/1531365/pakistan-prime-minister-imran-khan-united-nations.jpg?w=397&amp;h=265&amp;q=90&amp;f=65e1db35ff98da6c222e8a8aaf5ff48b">
+                        
+                  </picture>
                 </div>
                 <h3><a class="p-0 f-new-title font-weight-bold" href="#">Pakistan: We Will 'Fight to the End' If War With India Starts Over Kashmir</a></h3>
                 <p class="article-text">"Supposing a country seven times smaller than its neighbor is faced with the choice: either you surrender, or you fight for your freedom till death," Pakistani Prime Minister Imran Khan told the U.N.</p>
@@ -98,10 +122,41 @@
                 <div class="f-back-img position-relative">
                   <a class="position-absolute back-click" href="#"></a>
                   <a class="position-absolute subject font-weight-bold text-uppercase" href="#">Survey</a>
-                  <img class="d-flex f-back-img" src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&h=265&q=90&f=8662347cdc80612bafa925e60426b353" alt="">
+                  <picture>
+
+                    <source media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x">
+                    <source media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
+                    <source media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x">
+                    <source media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
+                    <img class="d-flex f-back-img" data-src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353" alt="Best Online Shops 2020" title="Best Online Shops 2020" src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353">
+
+                  </picture>
                 </div>
                 <h3><a class="p-0 f-new-title font-weight-bold" href="#">Best Online Shops 2020</a></h3>
                 <p class="article-text">Where should customers go for the best products, prices and service? We ranked the top 1,000 shops across eight industries and 39 categories.</p>
+              </article>
+
+              <article class="col p-0">
+                <div class="position-relative">
+                  <a class="position-absolute back-click" href="#"></a>
+                  <a class="position-absolute subject-s font-weight-bold text-uppercase" href="#">Sponsored Insight</a>
+                  <img class="d-flex f-back-img m-0" alt="climate denier" title="climate denier" src="https://d.newsweek.com/en/full/1519889/korea-university-college-engineering.jpg?w=343&h=229&l=0&t=0&f=abfe6f03ca4ee6c12e4ec0bb62b83bf1">
+                </div>
+                <div class="border sponsor-txt-div">
+                    <h3><a class="p-0 f-new-title font-weight-bold" href="#">Why You Should Be An Engineer & Why ABET Is Important to that Path.</a></h3>
+                    <p class="article-text">Do you dream of changing the world? Do you want to make a practical difference in people’s lives? Engineers do both these things. Find out how to join them.</p>
+                </div>
+              </article>
+              <article class="col p-0">
+                <div class="position-relative">
+                  <a class="position-absolute back-click" href="#"></a>
+                  <a class="position-absolute subject-s font-weight-bold text-uppercase" href="#">Sponsored Insight</a>
+                  <img class="d-flex f-back-img m-0" alt="climate denier" title="climate denier" src="https://d.newsweek.com/en/full/1516035/weill-cornell-medicine.jpg?w=343&h=229&l=0&t=0&f=730a87c256202b8c8712bfbe51e64bbf">
+                </div>
+                <div class="border sponsor-txt-div">
+                    <h3><a class="p-0 f-new-title font-weight-bold" href="#">Infertility - A look at the leading clinics in the field</a></h3>
+                    <p class="article-text">There can be family related, culturally linked, and even political reasons why prospective parents face significant challenges seeking conception treatment. Who can they turn to?</p>
+                </div>
               </article>
               
             </div>
@@ -111,69 +166,307 @@
                   <div class="f-back-img position-relative">
                     <a class="position-absolute back-click" href="#"></a>
                     <a class="position-absolute subject font-weight-bold text-uppercase" href="#">Politics</a>
-                    <img class="d-flex f-back-img" src="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=591&h=364&f=90a31e432e7c89cc5697b252097900da" alt="">
+                    <picture>
+                      <source media="min-width: 768px" data-srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=591&amp;h=364&amp;f=90a31e432e7c89cc5697b252097900da 1x" srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=591&amp;h=364&amp;f=90a31e432e7c89cc5697b252097900da 1x">
+                      <source media="min-width: 481px" data-srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=767&amp;h=512&amp;f=128063d88b12cbc692f51350b14cce95 1x" srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=767&amp;h=512&amp;f=128063d88b12cbc692f51350b14cce95 1x">
+                      <source media="min-width: 0px" data-srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=466&amp;h=311&amp;f=ee69745b81382842769d0663061ebe30 1x" srcset="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=466&amp;h=311&amp;f=ee69745b81382842769d0663061ebe30 1x">
+                      <img class="d-flex f-back-img" data-src="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=591&amp;h=364&amp;f=90a31e432e7c89cc5697b252097900da" alt="democrats warn trump stop threatening whistleblower" title="democrats warn trump stop threatening whistleblower" src="https://d.newsweek.com/en/full/1531364/democrats-warn-trump-stop-threatening-whistleblower.jpg?w=767&h=512&f=128063d88b12cbc692f51350b14cce95">
+                    </picture>
                   </div>
                   <h3><a class="p-0 t-new-title font-weight-bold" href="#">Democrats Accuse Trump of Endangering Whistleblower</a></h3>
                   <p class="article-text">The president in recent days, by way of tweet storms and press conferences, has relentlessly bashed the Ukraine whistleblower and denied any wrongdoing during a phone call in which he pressured a foreign leader to investigate a political opponent.</p>
-                  <ul class="px-0 m-0">
-                    <li class=""><p>Pelosi Says Russia 'Had a Hand' in Trump Ukraine Whistleblower Debacle</p></li>
+                  <ul class="px-0 m-0 related">
+                    <li class="d-flex"><p class="m-0 font-weight-bold">Pelosi Says Russia 'Had a Hand' in Trump Ukraine Whistleblower Debacle</p></li>
                   </ul>
-                </article>
-            </div>
+              </article>
+              
+              <div class="mt-3 pxp-10 gray">
+                <h2 class="col-title text-uppercase font-weight-bold pt-2">Culture & Travel</h2>
+                <div class="d-flex c-and-t row-wrap-ma flex-wrap">
+                  <article class="col-6">
+                    <div class="f-back-img position-relative  m-0">
+                      <a class="position-absolute back-click" href="#"></a>
+                      <img class="d-flex f-back-img  m-0" src="https://d.newsweek.com/en/full/1520569/glow-worm-cave.jpg?w=397&h=265&f=6533d10beeef8a86208582b1038722f7" alt="">
+                    </div>
+                    <div>
+                      <h3><a class="" href="#">Underground: The Most Beautiful Caves in the World</a></h3>
+                      <p class="article-text">Caves have an almost primal appeal—they hold the secrets to our past and are the last vestige of exploration.</p>
+                      <a class="c-and-t-bot" href="#">Caves</a>
+                    </div>
+                  </article>  
+                  <article class="col-6">
+                    <div class="f-back-img position-relative  m-0">
+                      <a class="position-absolute back-click" href="#"></a>
+                      <img class="d-flex f-back-img  m-0" src="https://d.newsweek.com/en/full/1529962/kenny-popera.jpg?w=397&h=265&f=d5416cad63a911a78ccdb1215b62ad35" alt="">
+                    </div>
+                    <div>
+                      <h3><a class="" href="#">Uncharted Territory: A Queer Journey Through The Kenyan Bush</a></h3>
+                      <p class="article-text">Kenny Porpora, author of 'The Autumn Balloon,' joins an LGBT tour operator in Kenya, where homosexuality is punishable by up to 14 years in prison.</p>
+                      <a class="c-and-t-bot" href="#">Africa</a>
+                    </div>
+                  </article>
+                  <article class="col-6">
+                    <div class="f-back-img position-relative  m-0">
+                      <a class="position-absolute back-click" href="#"></a>
+                      <img class="d-flex f-back-img  m-0" src="https://d.newsweek.com/en/full/1395614/qatar-airways.jpg?w=397&h=265&f=8d33e195b3df100a0ffe76bc3a4d029a" alt="">
+                    </div>
+                    <div>
+                      <h3><a class="" href="#">The World's Best Airlines, Ranked</a></h3>
+                      <p class="article-text">For best airline overall, Asian and Middle Eastern airlines triumphed.</p>
+                      <a class="c-and-t-bot" href="#">Slideshows</a>
+                    </div>
+                  </article> 
+                  <article class="col-6">
+                    <div class="f-back-img position-relative  m-0">
+                      <a class="position-absolute back-click" href="#"></a>
+                      <img class="d-flex f-back-img  m-0" src="https://d.newsweek.com/en/full/1530172/7-best-bookshops-london.jpg?w=397&h=265&f=57a6222720a4fd11a19c69ff8afc66cd" alt="">
+                    </div>
+                    <div>
+                      <h3><a class="" href="#">7 Best Bookshops in London</a></h3>
+                      <p class="article-text">London is one of the best cities for bookshops on the planet and the below 7 spots should be on any bookworms list.</p>
+                      <a class="c-and-t-bot" href="#">Culture</a>
+                    </div>
+                  </article> 
+                </div>
+              </div>
+
+              <article class="more-stories">
+                  <h2 class="col-title text-uppercase font-weight-bold">More Stories</h2>
+                  <ul class="p-0 m-0">
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1531308/nra-convenes-annual-meeting-indianapolis.jpg?w=135&h=90&f=0f4b8681c6ed7a8ddb901a1f972d6132" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Actor Jon Voight Defends Trump Against Impeachment: "War. This Is War"</a>
+                        <p>These allegations of business impropriety mirror other scandals currently engulfing America's most powerful gun rights lobby.</p>
+                      </div> 
+                      <br class="clear">     
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532410/greta-thunberg.jpg?w=135&h=90&f=ace695613331fad7ddc5e4fba7647b45" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Russian Politician Invites Greta Thunberg to Speak in Parliament</a>
+                        <p>In a letter to Thunberg, Vasily Vlasov, deputy of the Duma State, said young people will not let themselves be "condemned to extinction."</p>
+                      </div>      
+                      <br class="clear">  
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532403/corey-lewandowski.jpg?w=135&h=90&f=b63bb4c93eb1620183138b4f45865588" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Lewandowski Accuses Sanders, Warren of Wanting Immigrants to Kill Americans</a>
+                        <p>"Don't forget Elizabeth Warren and Bernie Sanders—they're avowed socialists," said former Donald Trump campaign manager Corey Lewandowski.</p>
+                      </div>      
+                      <br class="clear">  
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532406/donald-trump-coup-tweets-impeachment-twitter.jpg?w=135&h=90&f=9cf90a8c4f31871968567f7723c86e92" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Trump Has Claimed Multiple Times That He's the Victim of an Attempted Coup</a>
+                        <p>The president's tweet calling the move towards his impeachment a coup is in line with his past rhetoric about the Mueller investigation and the FBI.</p>
+                      </div>      
+                      <br class="clear">  
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1529491/rudy-giuliani.jpg?w=135&h=90&f=e4d3c8244a40160349394862e535b200" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Giuliani Says He Will Bring 'Jaw Suit' Against Congress</a>
+                        <p>President Donald Trump's personal attorney said he spoke with civil rights and constitutional lawyers about planned lawsuits.</p>
+                      </div>      
+                      <br class="clear">  
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532375/rev-robert-jeffress.jpg?w=135&h=90&f=7fe0be6fbe1d329c4cf3d9e24976a11f" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Pastor Robert Jeffress Says Trump Is a Christian 'Warrior' </a>
+                        <p>Head of the 13,000-member First Baptist Dallas church told radio program 'The Todd Starnes Show' that the Democrats would not support Christians' rigths</p>
+                      </div>    
+                      <br class="clear">    
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532400/kim-jong-un-missile-nuclear-test-launch.jpg?w=135&h=90&f=6f8e34e6c5df6031fb0d21cc8912e5f3" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Kim Jong Un Is Sending Trump a Message With Nuclear Missile Test: Experts</a>
+                        <p>The test came just one day after the North announced it would resume denuclearization talks with the U.S. this weekend.</p>
+                      </div>     
+                      <br class="clear">   
+                    </li>
+                    <li class="col px-0 border-top">
+                      <div class="float-left">
+                        <a class="latest-img">
+                         <img class="latest-img" src="https://d.newsweek.com/en/full/1532190/mac-thornberry.jpg?w=135&h=90&f=cf0e55ac1044aa37ef9e2f621c85ef80" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a class="font-weight-bold" href="">Former Bush Aide: 'Republicans Should Be Worried' About Texas</a>
+                        <p>"Republicans have a problem, particularly in college educated suburban areas," Ari Fleischer said.</p>
+                      </div>     
+                      <br class="clear">   
+                    </li>
+                   
+                  </ul>
+              </article>
+
+
+
+            </div>  
+          </div>
         </div>
-        <div class="col-3">
-          <h2 class="col-title text-uppercase font-weight-bold">Opinion</h2>
-          <ul class="p-0 m-0 opinion-list">
-            <li class="d-flex col px-0 pb-2 pt-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">I'm Pakistani-Canadian, and I Forgive Justin Trudeau</a>
-                <p class="text-uppercase font-weight-bold">By Ahmed Sahi</p>        
-              </div>      
-            </li>
+          <div class="col-3">
+              <article>
+                  <h2 class="col-title text-uppercase font-weight-bold">Opinion</h2>
+                  <ul class="p-0 m-0 opinion-list">
+                    <li class="d-flex col px-0 pb-2 pt-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">I'm Pakistani-Canadian, and I Forgive Justin Trudeau</a>
+                        <p class="text-uppercase font-weight-bold">By Ahmed Sahi</p>        
+                      </div>      
+                    </li>
+        
+                    <li class="d-flex col px-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Taking Action in Hong Kong Is in America's Moral and Economic Interest</a>
+                        <p class="text-uppercase font-weight-bold">By Newt Gingrich</p>        
+                      </div>      
+                    </li>
+        
+                    <li class="d-flex col px-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">The Remarkable Story of an American Officer Who Saved 200 Lives</a>
+                        <p class="text-uppercase font-weight-bold">By Lee Habeeb</p>        
+                      </div>      
+                    </li>
+        
+                    <li class="d-flex col px-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">The Military Is Promoting the General Who Assaulted Me, but It Can't Stonewall #MeToo Forever</a>
+                        <p class="text-uppercase font-weight-bold">By Kathryn Spletstoser</p>        
+                      </div>      
+                    </li>
+        
+                    <li class="d-flex col px-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">We're About to Set Off on an All-Female Expedition Across World's Oceans</a>
+                        <p class="text-uppercase font-weight-bold">By Emily Penn</p>        
+                      </div>      
+                    </li>
+        
+                    <li class="d-flex col px-0">
+                      <a class="opinion-img" href=""></a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Why BDS Fails My 3D Test on Anti-Semitism | Opinion</a>
+                        <p class="text-uppercase font-weight-bold">By Natan Sharansky</p>        
+                      </div>      
+                    </li>
+                    
+        
+                  </ul>
+              </article>
+              <article>
+                  <h2 class="col-title text-uppercase font-weight-bold">Latest news</h2>
+                  <ul class="p-0 m-0 opinion-list">
+                    <li class="d-flex col px-0 pb-2 pt-0">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531443/actor-jon-voight-defends-trump-against-impeachment-war-this-war.jpg?w=397&h=265&f=03213760338ce121afc2a2f056ba904c" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Actor Jon Voight Defends Trump Against Impeachment: "War. This Is War"</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531361/protesters-demand-impeachment-over-sexual-assault-allegations.jpg?w=397&h=265&f=ede6cbbf93db5a2c6c3ff8dcf0c62127" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Fox News' Chris Wallace: 'Spinning' by Trump Defenders Is 'Astonishing'</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531381/7-best-literary-landmarks-london.jpg?w=397&h=265&f=20ad428647774736315e036a47234b72" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">7 Best Literary Landmarks in London"</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531371/hermit-nikolai-gromov.jpg?w=397&h=265&f=e98e317f26f61c3e47ac84c9b5135928" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Hermit Hides in The Woods For 24 Years, Fleeing Murder He DIdn't Commit"</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531359/newsom-trump.jpg?w=397&h=265&f=c557c88ad7e4b6d2767048c0cf267bfd" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">California to Work with Bloomberg to Monitor Climate Change With Satellites"</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531350/navy-uss-ronald-reagan-south-china-sea.jpg?w=397&h=265&f=bd11c9c808c1fad134f4c752ce767b12" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">China Gets U.S. Holiday Wish, But Says Its 'Petty Actions' Aren't Helping"</a>
+                      </div>      
+                    </li>
+                    <li class="d-flex col px-0 ">
+                      <a class="latest-img">
+                        <img class="latest-img" src="https://d.newsweek.com/en/full/1531342/little-colorado-river-gorge.jpg?w=397&h=265&f=0e0c93b97855f27760e5027539e712f4" alt="">
+                      </a>
+                      <div class="d-flex flex-column opinion-txt">
+                        <a class="font-weight-bold" href="">Critics Say Proposed Dam Will Severely Impact Wildlife, Sacred Sites"</a>
+                      </div>      
+                    </li>
+                  </ul>
+              </article>
+              <article class="col p-0">
+                  <div class="position-relative">
+                    <a class="position-absolute back-click" href="#"></a>
+                    <a class="position-absolute subject-s font-weight-bold text-uppercase" href="#">Sponsored Insight</a>
+                    <img class="d-flex f-back-img m-0" alt="climate denier" title="climate denier" src="https://d.newsweek.com/en/full/1529030/tulane-university.jpg?w=343&h=229&f=c34e12abd19e4a56001453143aae69d4">
+                  </div>
+                  <div class="border sponsor-txt-div">
+                      <h3><a class="p-0 f-new-title font-weight-bold" href="#">What Can a Degree in Public Health Do For You?</a></h3>
+                      <p class="article-text">The field of public health is a powerful draw for those who feel inspired to make a positive difference in their communities. Find out more.</p>
+                  </div>
+              </article>
 
-            <li class="d-flex col px-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">Taking Action in Hong Kong Is in America's Moral and Economic Interest</a>
-                <p class="text-uppercase font-weight-bold">By Newt Gingrich</p>        
-              </div>      
-            </li>
-
-            <li class="d-flex col px-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">The Remarkable Story of an American Officer Who Saved 200 Lives</a>
-                <p class="text-uppercase font-weight-bold">By Lee Habeeb</p>        
-              </div>      
-            </li>
-
-            <li class="d-flex col px-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">The Military Is Promoting the General Who Assaulted Me, but It Can't Stonewall #MeToo Forever</a>
-                <p class="text-uppercase font-weight-bold">By Kathryn Spletstoser</p>        
-              </div>      
-            </li>
-
-            <li class="d-flex col px-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">We're About to Set Off on an All-Female Expedition Across World's Oceans</a>
-                <p class="text-uppercase font-weight-bold">By Emily Penn</p>        
-              </div>      
-            </li>
-
-            <li class="d-flex col px-0">
-              <a class="opinion-img" href=""></a>
-              <div class="d-flex flex-column opinion-txt">
-                <a class="font-weight-bold" href="">Why BDS Fails My 3D Test on Anti-Semitism | Opinion</a>
-                <p class="text-uppercase font-weight-bold">By Natan Sharansky</p>        
-              </div>      
-            </li>
-            
-
-          </ul>
+          </div>
         </div>
       </section>
 
