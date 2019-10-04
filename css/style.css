@@ -148,6 +148,36 @@ div.logo-box {
   flex: 1 1 100%;
   max-width: 100%;
   margin-bottom: 10px;
+  width: 100%;
+}
+
+.m-block p{
+  padding: 0 7px;
+  margin-right: 7px;
+  background: #f72210;
+  color: #fff;
+  font-size: 16px;
+}
+.m-block h4 a{
+  color: #f72210;
+  font-size: 16px;
+  line-height: 20px;
+}
+.m-block h2 a{
+  color: #000;
+  font-size: 20px;
+  line-height: 16px;
+}
+.m-block h2{
+  
+  line-height: 16px;
+}
+.m-block div:last-of-type{
+  margin: 10px 0 ;
+}
+.issue {
+  padding: 10px 12px;
+  background: #f4f5f6;
 }
 
 .back-click {
@@ -223,7 +253,21 @@ div.logo-box {
 .gray {
   background-color: #f4f5f7;
 }
-
+picture.m-back-img{
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  padding-bottom: 100%;
+  flex-basis: 100%;
+}
+img.m-back-img{
+  position: absolute;
+  transform: translateX(-50%);
+  top:0;
+  left:50%;
+  height: 100%;
+  z-index: 1;
+}
 .row-wrap-ma {
   margin: 0 -20px;
 }
@@ -246,26 +290,34 @@ p.article-text {
   color: rgb(51, 51, 51);
   line-height: 20px;
 }
-.sponsor-txt-div{
-  padding: 20px;
+.editors-p{
+  margin-top: 30px;
 }
-.more-stories{
+.sponsor-txt-div {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.more-stories {
   padding-top: 20px;
 }
-.more-stories li{
+
+.more-stories li {
   padding: 14px 0;
   color: #000;
 }
-.more-stories p{
-  font: 15px Arial, Helvetica, sans-serif; 
+
+.more-stories p {
+  font: 15px Arial, Helvetica, sans-serif;
   color: rgb(51, 51, 51);
   margin: 0;
 }
-.more-stories div{
+
+.more-stories div {
   line-height: 20px;
 }
 
-.more-stories div>a{
+.more-stories div > a {
   flex: 1;
   color: #000;
   font-size: 17px;
@@ -273,9 +325,11 @@ p.article-text {
   margin-bottom: 10px;
   display: block;
 }
-.clear{
-  clear:both;
+
+.clear {
+  clear: both;
 }
+
 .subject {
   bottom: 0;
   left: 0;
@@ -357,12 +411,92 @@ p.article-text {
   background: url(https://d.newsweek.com/en/full/1530403/natan-sharansky.png?w=63&h=63&f=aa4bf66caef28357d774bfc6c0633a59);
 }
 
+.pyb-12{
+  padding-bottom: 12px;
+}
+.f-sld .f-new-title{
+
+  font-size: 22px;
+  line-height: 22px;
+  display: block;
+}
+.f-sld .subject{
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+  line-height: 52px;
+  text-indent: 5px;
+}
+.f-sld h3{
+  margin-bottom: 40px;
+}
+.f-sld img{
+  margin-bottom: 20px;
+}
+.n-div .n-sld-icon::after{
+  display: block;
+  content: " ";
+  height: 27px;
+  width: 29px;
+  border-right: 3px solid #f72210;
+  border-bottom: 3px solid #f72210;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+div.n-logo {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.n-div{
+  margin-bottom: 15px;
+}
+.m-wrapper{
+  margin-top: 20px;
+}
+.bot-row{
+  padding-top: 30px;
+}
+.height-fit{
+  height: max-content;
+}
+.n-div h2 {
+  color: rgb(51, 51, 51);
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.n-div span {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) no-repeat #f72210;
+  margin-right: 10px;
+}
+
+div.n-logo > a:first-of-type {
+  padding: 10px;
+  background: rgb(102, 102, 102);
+  color: #fff;
+  width: max-content;
+  margin-bottom: 10px;
+}
+
+div.n-logo > a:last-of-type {
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+}
+
+
 @media screen and (max-width: 992px) {
   .col-wrapper {
     max-width: 100%;
     flex-basis: 100%;
     flex-shrink: 0;
-    padding: 0;
+   
   }
 
   .col-1 {
@@ -378,7 +512,12 @@ p.article-text {
   .col-3 {
     flex-basis: 100%;
     max-width: 100%;
-    padding: 0;
+    
+  }
+
+  main.container {
+ 
+    padding: 20px 15px 0;
   }
 }
 
@@ -388,7 +527,7 @@ p.article-text {
     max-width: 100%;
     flex-basis: 100%;
     flex-shrink: 0;
-    padding: 0;
+    
     flex-wrap: wrap;
   }
 
@@ -398,7 +537,7 @@ p.article-text {
     flex: 1;
     order: 2;
   }
-
+  
   .col-2 {
     flex-basis: 100%;
     max-width: 100%;
@@ -410,7 +549,10 @@ p.article-text {
     flex-basis: 100%;
     max-width: 100%;
   }
-  .more-stories .latest-img{
+  .col-md-3{
+    
+  }
+  .more-stories .latest-img {
     width: 258px;
     height: 172px;
   }
